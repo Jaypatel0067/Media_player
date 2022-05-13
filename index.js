@@ -18,12 +18,12 @@ let forward = document.getElementById("forw");
 let beckward = document.getElementById("back");
 let songs = [
   {
-    songname: "See You Again” by Wiz Knalifa ft. Charlie Puth.",
+    songname: " Falak Tu Garaj Tu - KGF 2",
     filepath: "songs/1.mp3",
     coverpath: "covers/1.jpg",
   },
   {
-    songname: "Sorry by Justin Bieber.",
+    songname: " Na Na Re Kgf",
     filepath: "songs/2.mp3",
     coverpath: "covers/2.jpg",
   },
@@ -33,17 +33,17 @@ let songs = [
     coverpath: "covers/3.jpg",
   },
   {
-    songname: "Blank Space” by Taylor Swift.",
+    songname: " Mehabooba Hindi - KGF 2",
     filepath: "songs/4.mp3",
     coverpath: "covers/4.jpg",
   },
   {
-    songname: "Shake It Off” by Taylor Swift.",
+    songname: " Maan Le - Arijit Singh",
     filepath: "songs/5.mp3",
     coverpath: "covers/5.jpg",
   },
   {
-    songname: "Lean On” by Major Lazer & Dj Shake ft. Mo.",
+    songname: " Kuch To Bata Zindagi",
     filepath: "songs/6.mp3",
     coverpath: "covers/6.jpg",
   },
