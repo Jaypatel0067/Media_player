@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.pinclipart.com/picdir/middle/54-544536_music-mentors-transparent-background-phone-logos-clipart.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Tone Melody</title>
+</head>
+<body>
+<div class="main">
+   
+    <nav>
+        <ul>
+              <li class="brand hadding">Tone Melody</li>
+        </ul>
+        <ul style="margin-top: 100px;">
+            <li class="subhadding active">Playlist</li>
+            <li class="subhadding">Browser</li>
+            <li class="subhadding">Radio</li>
+        </ul>
+        
+    </nav>
+
+ 
+    <div class="container">
+        <div class="songlist" style="width: 50%;">
+            <h1 class="hadding">My Playlist..
+            </h1>
+            <div class="songiteamcontainer">
+            <div class="songiteam">
+                <img  alt="1" >
+                <span class="songname subhadding"></span>
+                <span class="songlistplay"><span class="timestamp"></span><i id="0" class="fa-solid songiteamplay fa-circle-play"></i>
+            </span>
+            </div>
+            <div class="songiteam">
+                <img  alt="1" >
+                <span class="songname subhadding"></span>
+                <span class="songlistplay"><span class="timestamp"></span><i id="1" class="fa-solid songiteamplay fa-circle-play"></i>
+            </span>
+            </div>
+            <div class="songiteam">
+                <img  alt="1" >
+                <span class="songname subhadding"></span>
+                <span class="songlistplay"><span class="timestamp"></span><i id="2" class="fa-solid songiteamplay fa-circle-play"></i>
+            </span>
+            </div>
+            <div class="songiteam">
+                <img  alt="1" >
+                <span class="songname subhadding"></span>
+                <span class="songlistplay"><span class="timestamp"></span><i id="3" class="fa-solid songiteamplay fa-circle-play"></i>
+            </span>
+            </div>
+            <div class="songiteam">
+                <img  alt="1" >
+                <span class="songname subhadding"></span>
+                <span class="songlistplay"><span class="timestamp"></span><i id="4" class="fa-solid songiteamplay fa-circle-play"></i>
+            </span>
+            </div>
+            <div class="songiteam">
+                <img  alt="1" >
+                <span class="songname subhadding"></span>
+                <span class="songlistplay"><span class="timestamp"></span><i id="5" class="fa-solid songiteamplay fa-circle-play"></i>
+            </span>
+            </div>
+        </div>
+        </div>
+        
+        <div class="songbanner">
+           <div class="img">
+               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1024px-Circle-icons-profile.svg.png" id="mainimg" alt="" srcset="">
+              <p class="subhadding" id="currentsongname">Song Name</p>
+              <p class="subhadding" id="currentsongartist">Artist Name</p>
+       
+            </div>
+        </div>
+     
+    </div>
+  
+
+
+</div>
+<div class="bottom">
+    <span style=" padding: 0px 10px;   display: flex;width: 100%;"><div id="start" class="p">00:00</div> <input type="range" name="range"  id="myprogressbar" value="0" min="0" max="95"  > <div id="end"class="p">00:00</div> </span>
+   
+    <div class="control">
+    <div class="songinfo">
+        <img src="playing.gif" alt="" width="30px" id="gif"> <span id="masterplaysong" class="p">See You Again” by Wiz Knalifa ft. Charlie Puth.</span>
+    </div>
+    <div class="icons">
+      
+         <!--font awsome icons-->
+         <i class="fa-solid fa-backward" id="back"></i>
+         <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+         <i class="fa-solid fa-forward" id="forw"></i>
+         
+     </div>
+     <div class="volumecontrol">
+        <i class="fa-solid fa-volume-low" id="volumedic"></i>&nbsp; <input type="range" name="volume" id="volume"  min="0" max="1" step="0.1"><i id="volumeinc" class="fa-solid fa-volume-high"></i>
+       </div>
+    </div>
+ </div>
+    <script src="https://kit.fontawesome.com/43fd1e0709.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
